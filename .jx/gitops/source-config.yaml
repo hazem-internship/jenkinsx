@@ -8,6 +8,7 @@ spec:
     provider: https://github.com
     providerKind: github
     repositories:
+    - name: things-board
     - name: thingsboard
     - name: thingsboard1
     scheduler: in-repo

@@ -8,6 +8,7 @@ data:
     in_repo_config:
       enabled:
         hazem-internship/jenkinsx: true
+        hazem-internship/things-board: true
         hazem-internship/thingsboard: true
         hazem-internship/thingsboard1: true
     plank: {}
@@ -22,6 +23,7 @@ data:
         skip-unknown-contexts: false
       merge_method:
         hazem-internship/jenkinsx: merge
+        hazem-internship/things-board: merge
         hazem-internship/thingsboard: merge
         hazem-internship/thingsboard1: merge
       queries:
@@ -35,6 +37,7 @@ data:
         - needs-rebase
         repos:
         - hazem-internship/jenkinsx
+        - hazem-internship/things-board
         - hazem-internship/thingsboard
         - hazem-internship/thingsboard1
       - labels:
@@ -47,6 +50,7 @@ data:
         - needs-rebase
         repos:
         - hazem-internship/jenkinsx
+        - hazem-internship/things-board
         - hazem-internship/thingsboard
         - hazem-internship/thingsboard1
       target_url: http://lighthouse-jx.10.0.0.100.nip.io/merge/status
