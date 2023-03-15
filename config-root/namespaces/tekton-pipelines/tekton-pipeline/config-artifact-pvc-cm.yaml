@@ -24,9 +24,6 @@ metadata:
     gitops.jenkins-x.io/pipeline: 'namespaces'
   annotations:
     meta.helm.sh/release-name: 'tekton-pipeline'
- data:
-#   # size of the PVC volume
-   size: 5Gi
-#
-#   # storage class of the PVC volume
+data:
+  size: 5Gi
    storageClassName: nfs
