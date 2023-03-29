@@ -1,0 +1,11 @@
+filepath: ""
+namespace: jx-staging
+repositories:
+- name: dev
+  url: https://hazem-internship.github.io/gow-new-1/
+releases:
+- chart: dev/golang-demo
+  version: 0.0.1
+  name: golang-demo
+templates: {}
+renderedvalues: {}
