@@ -7,6 +7,7 @@ data:
       LinkURL: null
     in_repo_config:
       enabled:
+        hazem-internship/golang_demo: true
         hazem-internship/jenkinsx: true
         hazem-internship/things-board: true
         hazem-internship/thingsboard: true
@@ -22,6 +23,7 @@ data:
         required-if-present-contexts: null
         skip-unknown-contexts: false
       merge_method:
+        hazem-internship/golang_demo: merge
         hazem-internship/jenkinsx: merge
         hazem-internship/things-board: merge
         hazem-internship/thingsboard: merge
@@ -37,6 +39,7 @@ data:
         - needs-rebase
         repos:
         - hazem-internship/jenkinsx
+        - hazem-internship/golang_demo
         - hazem-internship/things-board
         - hazem-internship/thingsboard
         - hazem-internship/thingsboard1
@@ -50,6 +53,7 @@ data:
         - needs-rebase
         repos:
         - hazem-internship/jenkinsx
+        - hazem-internship/golang_demo
         - hazem-internship/things-board
         - hazem-internship/thingsboard
         - hazem-internship/thingsboard1
