@@ -1,0 +1,10 @@
+# Source: golang-demo-jx/templates/sa.yaml
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: golang-demo-jx-golang-demo-jx
+  annotations:
+    meta.helm.sh/release-name: 'golang-demo-jx'
+  namespace: jx-production
+  labels:
+    gitops.jenkins-x.io/pipeline: 'namespaces'
