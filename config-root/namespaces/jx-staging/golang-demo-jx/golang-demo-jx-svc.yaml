@@ -1,0 +1,20 @@
+# Source: golang-demo-jx/templates/service.yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: golang-demo-jx
+  labels:
+    chart: "golang-demo-jx-0.0.1"
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+  annotations:
+    meta.helm.sh/release-name: 'golang-demo-jx'
+  namespace: jx-staging
+spec:
+  type: ClusterIP
+  ports:
+  - port: 80
+    targetPort: 8080
+    protocol: TCP
+    name: http
+  selector:
+    app: golang-demo-jx-golang-demo-jx
