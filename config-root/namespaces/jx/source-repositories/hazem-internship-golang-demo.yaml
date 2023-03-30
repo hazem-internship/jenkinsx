@@ -10,13 +10,13 @@ metadata:
   name: hazem-internship-golang-demo
   namespace: jx
 spec:
-  httpCloneURL: https://github.com/hazem-internship/golang_demo.git
+  httpCloneURL: https://github.com/hazem-internship/golang-demo.git
   org: hazem-internship
   provider: https://github.com
   providerKind: github
   providerName: github
-  repo: golang_demo
+  repo: golang-demo
   scheduler:
     kind: ""
     name: in-repo
-  url: https://github.com/hazem-internship/golang_demo
+  url: https://github.com/hazem-internship/golang-demo

@@ -9,7 +9,6 @@ spec:
     providerKind: github
     repositories:
     - name: golang-demo
-    - name: golang_demo
     - name: things-board
     - name: thingsboard
     - name: thingsboard1
