@@ -1,0 +1,22 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: hazem-internship
+    provider: github
+    repository: golang-demo-jx
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+  name: hazem-internship-golang-demo-jx
+  namespace: jx
+spec:
+  httpCloneURL: https://github.com/hazem-internship/golang-demo-jx.git
+  org: hazem-internship
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: golang-demo-jx
+  scheduler:
+    kind: ""
+    name: in-repo
+  url: https://github.com/hazem-internship/golang-demo-jx
